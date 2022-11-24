@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App{
+  background-image: url('/src/assets/warm.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 case-out;
+}
+.App.cold{
+  background-image: url('/src/assets/cold.jpg');
+}
+
+main{
+  min-height: 100vh;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  
+}
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.location-box .location{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 5px;
+}
+
+.location-box .date{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 5px;
+}
+
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .temp{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 5px;
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 5px;
+}
+
+.search-box .search-bar{
+  display: block;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  width: 100%;
+  padding: 20px;
+
+  background-color: whitesmoke;
+}
+
+.weather{
+  background-color: black;
+  margin: auto;
+  width: 5%;
+  padding: 10px;
+}
+
+
